@@ -396,3 +396,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Weather-Forecast-Api.Api/appsettings.Development.json

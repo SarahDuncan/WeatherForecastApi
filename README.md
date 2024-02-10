@@ -1,5 +1,5 @@
 ## Weather Forecast API 
-This API consumes the public [OpenWeatherMap](https://openweathermap.org/api) API. This API **works with this web repo (currently in build) to display the weather data** it pulls through for a searched-by/specified location.
+This API consumes the public [OpenWeatherMap](https://openweathermap.org/api) API. This API **works with a web repo (currently in build) to display the weather data** it pulls through for a searched-by/specified location.
 
 **To run this locally you need:**
 1. to generate a key from [OpenWeatherMap](https://openweathermap.org/api) and add it to your config under the key `ConnectionStrings:OpenWeatherApiKey`. I have kept my key in the appsettings.Development.json file which is in gitignore for security.

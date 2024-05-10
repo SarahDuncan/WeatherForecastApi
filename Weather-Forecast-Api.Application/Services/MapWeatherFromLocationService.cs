@@ -13,7 +13,9 @@ public static class MapWeatherFromLocationService
             MainWeather = source.Weather.First().Main,
             WeatherDescription = source.Weather.First().Description,
             Temperature = source.Main.Temperature,
-            FeelsLike = source.Main.FeelsLike
+            FeelsLike = source.Main.FeelsLike,
+            Latitude = source.Coordinates.Latitude,
+            Longitude = source.Coordinates.Longitude
         };
     }
 }

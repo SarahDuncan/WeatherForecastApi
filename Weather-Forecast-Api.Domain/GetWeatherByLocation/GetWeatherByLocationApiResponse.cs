@@ -51,10 +51,10 @@ public class GetWeatherByLocationApiResponse
 
 public class Coordinates
 {
-    [JsonPropertyName("longitude")]
+    [JsonPropertyName("lon")]
     public long Longitude { get; set; }
 
-    [JsonPropertyName("latitude")]
+    [JsonPropertyName("lat")]
     public long Latitude { get; set; }
 }
 

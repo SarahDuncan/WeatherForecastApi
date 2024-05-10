@@ -12,5 +12,7 @@ public class WeatherByLocation
     public string WeatherDescription { get; set; }
     public double Temperature { get; set; }
     public double FeelsLike { get; set; }
+    public double Latitude { get; set; }
+    public double Longitude { get; set; }
 }
 
